@@ -42,6 +42,10 @@ Or, if you don't want/need a background service you can just run:
 /opt/homebrew/opt/jenkins/bin/jenkins --httpListenAddress\=127.0.0.1 --httpPort\=8080
 ```
 
+```
+/Users/mac_rig2/.jenkins/secrets/initialAdminPassword
+```
+
 ### Installing Jenkins on Ubuntu/Debian
 
 1. Update your system:
