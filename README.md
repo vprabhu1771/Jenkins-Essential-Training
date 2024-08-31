@@ -20,6 +20,28 @@ Before setting up Jenkins, ensure you have the following:
 
 ## Installation
 
+### Installing Jenkins on macOS
+
+1. Download and Install: [HomeBrew](https://formulae.brew.sh/formula/jenkins#default)
+
+```
+brew install jenkins
+```
+
+Note: When using launchctl the port will be 8080.
+
+To start jenkins now and restart at login:
+
+```
+brew services start jenkins
+```
+
+Or, if you don't want/need a background service you can just run:
+
+```
+/opt/homebrew/opt/jenkins/bin/jenkins --httpListenAddress\=127.0.0.1 --httpPort\=8080
+```
+
 ### Installing Jenkins on Ubuntu/Debian
 
 1. Update your system:
