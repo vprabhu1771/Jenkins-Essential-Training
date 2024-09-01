@@ -3,6 +3,12 @@
 [Jenkins](https://www.jenkins.io/) is an open-source automation server that enables developers to build, test, and deploy their software reliably. This document provides an overview of how to set up and use Jenkins for continuous integration and continuous deployment (CI/CD) pipelines.
  
 ## Table of Contents
+1. [Download and Install cygwin](https://github.com/vprabhu1771/Jenkins-Essential-Training/tree/main/1%20-%20Download%20and%20Install%20cygwin)
+
+2. [Download and Install Python](https://github.com/vprabhu1771/Jenkins-Essential-Training/tree/main/2%20-%20Download%20and%20Install%20Python)
+
+3. [Download and Install Java JDK](https://github.com/vprabhu1771/Jenkins-Essential-Training/tree/main/3%20-%20Download%20and%20Install%20Java%20JDK)
+
 4. [Download and Install Jenkins](https://github.com/vprabhu1771/Jenkins-Essential-Training/tree/main/1%20-%20Download%20and%20Install%20Jenkins)
 
 5. [Create your first Jenkins Pipeline Hello World](https://github.com/vprabhu1771/Jenkins-Essential-Training/tree/main/2%20-%20Create%20your%20first%20Jenkins%20Pipeline%20Hello%20World)
