@@ -71,16 +71,14 @@ curl https://raw.githubusercontent.com/git-ftp/git-ftp/develop/git-ftp > /bin/gi
 8\. Make git-ftp Executable
 
 ```bash
-
 chmod +x /bin/git-ftp
-
-```text
+```
 
 9\. Run git-ftp
 
 ```bash
-
 git ftp
+```
 
 ```python
 
