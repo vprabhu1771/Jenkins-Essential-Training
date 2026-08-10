@@ -89,3 +89,53 @@ stage('Upload via FTP') {
 | Using a Pipeline project | Use `ftpPublisher` step in Jenkinsfile — post-build actions aren't available |
 
 Let me know if you're still having trouble after installing the plugin — I can help with the specific error or job type you're using.
+
+
+-----
+```
+Jenkins -> Manage Jenkins -> System -> Publish over FTP
+```
+FTP Servers
+
+Name: `Bughunt FTP`
+
+Hostname: `bughunt.in`
+
+Username: `cpanel_username`
+
+Password: `cpanel_password`
+
+Remote Directory: `/`
+
+Click `Test Configuration`
+
+
+# Build Config
+
+```
+Jenkins -> bughunt.in -> Configure -> Build Steps
+```
+
+# Execute Windows batch command 
+
+```
+npm run build
+```
+
+# Send files over FTP
+
+
+FTP Publishers -> FTP Server
+
+Name -> `Bughunt FTP`
+
+
+Transfers -> Transfer Set
+
+Source files -> `dist/**`
+
+Remove prefix -> `dist`
+
+Remote directory -> `public_html`
+
+
