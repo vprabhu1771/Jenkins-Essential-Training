@@ -1,3 +1,7 @@
+```
+https://plugins.jenkins.io/publish-over-ftp/
+```
+
 The "Send build artifacts over FTP" option is missing because the **Publish Over FTP plugin is not installed**, or it's not enabled for your project type.
 
 Here's how to fix it and understand the options:
