@@ -1,23 +1,21 @@
+```
 choco install git
-
-```text
-
-3\. Install cygwin
+```
+# 3. Install cygwin
 
 ```bash
-
 choco install cygwin
+```
 
 ```text
-
 ![000023](/images/install-git-ftp-windows/000023.png)
 
 > Run this twice if it fails the first time. Here’s how it failed for me.
 
 ![000024](/images/install-git-ftp-windows/000024.png)
+```
 
 ```bash
-
 ERROR: Running ["C:\Users\jong\AppData\Local\Temp\Cygwin\2.6.1\setup-x86_64.exe" --quiet-mode --site http://mirrors.kernel.org/sourceware/cygwin/ --packages default --root C:\tools\cygwin --local-package-dir C:\tools\cygwin --no-desktop] was not successful. Exit code was '1'. See log for possible error messages.
 Environment Vars (like PATH) have changed. Close/reopen your shell to
  see the changes (or in powershell/cmd.exe just type `refreshenv`).
@@ -33,11 +31,11 @@ Failures
 - cygwin (exited 1) - Error while running 'C:\ProgramData\chocolatey\lib\Cygwin\tools\chocolateyInstall.ps1'.
 
  See log for details.
+```
 
 ```python
-
 > If you get this error: “Please ensure you have Cygwin installed” then follow the steps [here](https://github.com/chocolatey/chocolatey-coreteampackages/issues/176#issuecomment-212939458)
-
+```
 ![000012](/images/install-git-ftp-windows/000012.png)
 
 > If you can’t get cygwin to install, then just install it directly from the cygwin website here: [https://cygwin.com/install.html](https://cygwin.com/install.html)
@@ -45,18 +43,14 @@ Failures
 4\. Install cyg-get
 
 ```bash
-
 choco install cyg-get
+```
 
-```text
-
-5\. Install cyg-get curl package
+5. Install cyg-get curl package
 
 ```bash
-
 cyg-get curl
-
-```text
+```
 
 6\. Open Cygwin Terminal
 
