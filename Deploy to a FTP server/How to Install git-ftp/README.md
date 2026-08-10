@@ -13,3 +13,7 @@ Cygwin Terminal
 curl https://raw.githubusercontent.com/git-ftp/git-ftp/master/git-ftp > /bin/git-ftp
 chmod 755 /bin/git-ftp
 ```
+
+```
+git ftp
+```
