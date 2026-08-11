@@ -92,6 +92,7 @@ Let me know if you're still having trouble after installing the plugin — I can
 
 
 -----
+# Config Build for `Vite React`
 ```
 Jenkins -> Manage Jenkins -> System -> Publish over FTP
 ```
